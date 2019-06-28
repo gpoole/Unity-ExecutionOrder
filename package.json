@@ -7,6 +7,6 @@
   "files": [
     "Assets/Editor",
     "Assets/Scripts",
-    "Assets/*.meta"
+    "**/*.meta"
   ]
 }
