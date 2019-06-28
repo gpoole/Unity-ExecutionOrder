@@ -1,0 +1,7 @@
+{
+  "name": "com.github.azixmcaze.unityexecutionorder",
+  "description": "A collection of attributes to control the execution order of your scripts in Unity from your source code.",
+  "version": "0.3.0",
+  "unity": "2018.3",
+  "displayName": "Execution Order Attributes"
+}

@@ -2,6 +2,16 @@
 
 A collection of attributes to control the execution order of your scripts in Unity from your source code.
 
+## Installing with Unity Package Manager
+To install this project as a dependency using the Unity Package Manager,
+add the following line to your project's `manifest.json`:
+
+```
+"com.github.azixmcaze.unityexecutionorder": "https://github.com/azixMcAze/Unity-ExecutionOrder.git"
+```
+
+If you are using [Assembly Definitions](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) in your project, you will need to add `UnityExecutionOrder` as an Assembly Definition Reference.
+
 ## Use
 Add one of these attribute to your script's class definition to change its script execution order :
 - `[ExecutionOrder(<order>)]` : The script execution order is set to `order`
